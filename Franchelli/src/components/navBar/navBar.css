@@ -1,0 +1,84 @@
+#logoImg {
+  width: 200px;
+  width: 170px;
+}
+
+.searchImg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.shoppingCard {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+/* btn */
+.loginBtn {
+  height: 30px;
+  background-color: #f8f9fa70;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background: none;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.loginBtn::before {
+  margin-left: auto;
+}
+
+.loginBtn::after,
+.loginBtn::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+.loginBtn:hover::after,
+.loginBtn:hover::before {
+  width: 100%;
+}
+/*  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  align-items: center;
+  background-color: #000000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.navbar ul li {
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightNav {
+  display: flex;
+  gap: 20px;
+}
+
+.themeChange {
+  display: flex;
+  gap: 20px;
+}
+
+.themeChange a {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
