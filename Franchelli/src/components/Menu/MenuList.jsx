@@ -14,11 +14,16 @@ const MenuList = ({ category, setCategory }) => {
                 setCategory((prev) =>
                   prev === menu.menu_name ? "All" : menu.menu_name
                 );
+                console.log(category);
               }}
               key={index}
               className="menu-list-item"
             >
-              <img src={menu.menu_image} alt={menu.menu_name} />
+              <img
+                className={category === menu.menu_name ? "active" : ""}
+                src={menu.menu_image}
+                alt={menu.menu_name}
+              />
               <h2>{menu.menu_name}</h2>
             </div>
           );

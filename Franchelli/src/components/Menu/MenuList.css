@@ -36,3 +36,8 @@ h1 {
 .menu-list {
     animation: scroll 10s linear infinite;
 }
+.menu-list-item .active {
+  border: 5px solid #de391cc1;
+  padding: 2px;
+
+}
