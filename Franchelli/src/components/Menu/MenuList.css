@@ -1,3 +1,11 @@
+.explore-menu {
+  background-image: url("../../assets/bckgr2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 65vh;
+}
+
 h1 {
   text-align: center;
   padding: 20px;
@@ -24,6 +32,7 @@ h1 {
 }
 .menu-list-item img {
   width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: 3px solid white;
   cursor: pointer;
@@ -34,10 +43,9 @@ h1 {
 }
 
 .menu-list {
-    animation: scroll 10s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 .menu-list-item .active {
   border: 5px solid #de391cc1;
   padding: 2px;
-
 }
