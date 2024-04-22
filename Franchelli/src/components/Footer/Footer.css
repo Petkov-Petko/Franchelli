@@ -1,10 +1,11 @@
 .footer {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0px 10px 30px 30px;
-  font-size: 17px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto;
+    gap: 1rem;
+    padding: 2rem 0;
+    background-color: rgb(95, 93, 93);
+    color: rgba(255, 255, 255, 1);
 }
 
 #logoImgFooter {
@@ -14,19 +15,14 @@
   margin: 0 auto;
 }
 
-#author{
-    grid-row: 5;
-    font-size: 11px;
-}   
 
 .social {
-    grid-row: 4;
-    grid-column: 1 / span 3;
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
+  grid-row: 4;
+  grid-column: 1 / span 3;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
 }
-
 
 .playstore-button {
   display: inline-flex;
@@ -70,3 +66,4 @@
 .text-2 {
   font-weight: 600;
 }
+
