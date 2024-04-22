@@ -1,10 +1,8 @@
 import menu_1 from "./c_5c87a51786d21_c095f62d4119a.jpg";
 import salad1 from "./salad1.jpg";
-import salad2 from "./salad2.jpg";
 import salad3 from "./salad3.jpg";
 import salad5 from "./salad5.jpg";
 import pizza2 from "./pizza2.jpg";
-import pizza3 from "./pizza3.jpg";
 import burger1 from "./burger1.jpg";
 import burger2 from "./burger2.jpg";
 import burger3 from "./burger3.jpg";
@@ -86,7 +84,7 @@ export const food_list = [
   {
     id: "6",
     name: "Nordic",
-    image: salad2,
+    image: salad1,
     price: 14,
     description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Salad",
@@ -142,7 +140,7 @@ export const food_list = [
   {
     id: "13",
     name: "Pizza Onion",
-    image: pizza3,
+    image: pizza2,
     price: 25,
     description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pizza",
@@ -150,7 +148,7 @@ export const food_list = [
   {
     id: "14",
     name: "Pasta Carbonara",
-    image: menu_1,
+    image: pasta2,
     price: 28,
     description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pasta",
