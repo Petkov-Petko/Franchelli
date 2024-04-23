@@ -13,7 +13,6 @@ const Home = () => {
       <Header />
       <MenuList category={category} setCategory={setCategory} />
       <FoodView category={category} />
-      <Footer />
     </div>
   );
 };
