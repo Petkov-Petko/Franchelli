@@ -4,7 +4,7 @@ import "dragscroll";
 
 const MenuList = ({ category, setCategory }) => {
   return (
-    <div className="explore-menu">
+    <div className="explore-menu" id="explore-menu">
       <h1>Menu</h1>
       <div className="menu-list dragscroll">
         {menu_list.map((menu, index) => {
