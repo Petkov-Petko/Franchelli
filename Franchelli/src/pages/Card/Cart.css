@@ -1,0 +1,83 @@
+.card {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  background-color: rgba(217, 217, 217, 0.646);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-items-content img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.card-items-title {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  color: rgb(6, 6, 6);
+  font-size: 22px;
+}
+
+.card hr {
+  height: 1px;
+  background-color: rgb(9, 9, 9);
+  border: none;
+  margin-top: 10px;
+}
+
+.card-items {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 3px rgba(52, 52, 52, 0.2);
+  box-shadow: -5px -5px 3px rgba(96, 96, 96, 0.2);
+  font-weight: bold;
+}
+
+.card-items button {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 70px;
+}
+
+.card-total {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.802);
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.card-total-details {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(20, 20, 20);
+  font-size: 20px;
+}
+
+.card-total hr {
+  margin: 10px 0px;
+}
+
+.card-total button {
+  background-color: rgba(255, 0, 0, 0.776);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 20%;
+  margin-top: 5px;
+}
