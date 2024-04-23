@@ -28,7 +28,7 @@ function NavBar({setIsLogIn}) {
 
         <button onClick={() => setIsLogIn(true)} className="loginBtn">Log in</button>
         <div>
-          <img className="shoppingCard" src={shoppingCart}></img>
+          <Link to="/Franchelli/card"><img className="shoppingCard" src={shoppingCart}></img></Link>
         </div>
       </div>
     </div>
