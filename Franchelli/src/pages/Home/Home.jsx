@@ -6,7 +6,7 @@ import FoodView from "../../components/FoodView/FoodView.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 
 const Home = () => {
-  const [category, setCategory] = useState("All");
+  const [category, setCategory] = useState("Top Dishes");
 
   return (
     <div>

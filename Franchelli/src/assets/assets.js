@@ -12,7 +12,6 @@ import pasta3 from "./pasta3.jpg";
 import grill1 from "./grill1.jpg";
 import grill2 from "./grill2.jpg";
 
-
 export const assets = {
   menu_1,
 };
@@ -46,15 +45,17 @@ export const food_list = [
     name: "Burrata",
     image: salad1,
     price: 10,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
-    category: "Salad",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Salads",
   },
   {
     id: "2",
     name: "Pizza Margherita",
     image: pizza2,
     price: 15,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pizza",
   },
   {
@@ -62,7 +63,8 @@ export const food_list = [
     name: "Burger Juicy",
     image: burger1,
     price: 20,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Burger",
   },
   {
@@ -70,7 +72,8 @@ export const food_list = [
     name: "Pasta Sausage",
     image: pasta1,
     price: 25,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pasta",
   },
   {
@@ -78,7 +81,8 @@ export const food_list = [
     name: "Grill and BBQ",
     image: grill2,
     price: 30,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Grill and BBQ",
   },
   {
@@ -86,23 +90,26 @@ export const food_list = [
     name: "Nordic",
     image: salad1,
     price: 14,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
-    category: "Salad",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Salads",
   },
   {
     id: "7",
     name: "Blue Garden",
     image: salad3,
     price: 10,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
-    category: "Salad",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Salads",
   },
   {
     id: "8",
     name: "Pizza Margherita",
     image: pizza2,
     price: 15,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pizza",
   },
   {
@@ -110,7 +117,8 @@ export const food_list = [
     name: "Burger",
     image: burger2,
     price: 20,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Burger",
   },
   {
@@ -118,7 +126,8 @@ export const food_list = [
     name: "Pasta",
     image: pasta2,
     price: 25,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pasta",
   },
   {
@@ -126,7 +135,8 @@ export const food_list = [
     name: "Grill and BBQ",
     image: grill1,
     price: 30,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Grill and BBQ",
   },
   {
@@ -134,15 +144,17 @@ export const food_list = [
     name: "Salad Italiana",
     image: salad3,
     price: 35,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
-    category: "Salad",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Salads",
   },
   {
     id: "13",
     name: "Pizza Onion",
     image: pizza2,
     price: 25,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pizza",
   },
   {
@@ -150,15 +162,17 @@ export const food_list = [
     name: "Pasta Carbonara",
     image: pasta2,
     price: 28,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pasta",
   },
   {
     id: "15",
     name: "Chicken Burger",
-    image: burger3, 
+    image: burger3,
     price: 22,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Burger",
   },
   {
@@ -166,7 +180,8 @@ export const food_list = [
     name: "BBQ Ribs",
     image: grill2,
     price: 35,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Grill and BBQ",
   },
   {
@@ -174,7 +189,8 @@ export const food_list = [
     name: "Greek Salad",
     image: salad5,
     price: 12,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Salad",
   },
   {
@@ -182,7 +198,82 @@ export const food_list = [
     name: "Pasta Petkova",
     image: pasta3,
     price: 55,
-    description: "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
     category: "Pasta",
+  },
+];
+export const top_dishes = [
+  {
+    id: "1",
+    name: "Burrata",
+    image: salad1,
+    price: 10,
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Salads",
+  },
+  {
+    id: "2",
+    name: "Pizza Margherita",
+    image: pizza2,
+    price: 15,
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Pizza",
+  },
+  {
+    id: "3",
+    name: "Burger Juicy",
+    image: burger1,
+    price: 20,
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Burger",
+  },
+  {
+    id: "4",
+    name: "Pasta Sausage",
+    image: pasta1,
+    price: 25,
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Pasta",
+  },
+  {
+    id: "5",
+    name: "Grill and BBQ",
+    image: grill2,
+    price: 30,
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Grill and BBQ",
+  },
+  {
+    id: "6",
+    name: "Nordic",
+    image: salad1,
+    price: 14,
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Salads",
+  },
+  {
+    id: "7",
+    name: "Blue Garden",
+    image: salad3,
+    price: 10,
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Salads",
+  },
+  {
+    id: "8",
+    name: "Pizza Margherita",
+    image: pizza2,
+    price: 15,
+    description:
+      "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
+    category: "Pizza",
   },
 ];

@@ -12,7 +12,7 @@ const MenuList = ({ category, setCategory }) => {
             <div
               onClick={() => {
                 setCategory((prev) =>
-                  prev === menu.menu_name ? "All" : menu.menu_name
+                  prev === menu.menu_name ? "Top Dishes" : menu.menu_name
                 );
                 console.log(category);
               }}
