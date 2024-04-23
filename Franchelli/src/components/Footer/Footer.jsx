@@ -17,12 +17,14 @@ const Footer = () => {
           <h3>Profile</h3>
           <p>Register</p>
           <p>Login</p>
-          <p>Payment methods</p>
+          <p>Payment methods:</p>
+          <p>Visa, Master Card, Cash</p>
         </div>
         <div className="Contacts">
           <h3>Contacts</h3>
           <p>Address: 1234 Main Street</p>
           <p>For orders:123-456-789</p>
+          <p>manager@Franchelli.bg</p>
         </div>
       </div>
       <div className="social">
