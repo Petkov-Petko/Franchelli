@@ -9,7 +9,7 @@
     overflow: hidden;
   }
   
-  form {
+  .loginForm {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,24 +18,24 @@
     text-align: center;
   }
   
-  form .head {
+  .loginForm.head {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
   
-  form .head span {
+  .loginForm .head span {
     font-size: 1.6rem;
     font-weight: bolder;
     color: black;
   }
   
-  form .head p {
+  .loginForm .head p {
     font-size: 1.1rem;
     color: #7C6666;
   }
   
-  form .inputs {
+  .loginForm .inputs {
     overflow: hidden;
     background-color: #fff;
     width: 100%;
@@ -45,7 +45,7 @@
     outline: 0;
   }
   
-  form .inputs input {
+  .loginForm .inputs input {
     border: none;
     outline: none;
     padding: 8px 15px;
@@ -56,7 +56,7 @@
     font-weight: 200;
   }
   
-  form button {
+  .loginForm button {
     background-color: #4287ef;
     color: white;
     width: 100%;
@@ -72,7 +72,7 @@
     transition: all 1s ease-in-out;
   }
   
-  form button:hover {
+  .loginForm button:hover {
     background-color: #005ce6;
   }
   

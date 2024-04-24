@@ -8,7 +8,7 @@ function SignUp({ setIsLogIn }) {
   return (
     <div className="body">
       <div className="container">
-        <form>
+        <form className="loginForm">
           <div className="head">
             <span>{register ? "Sign up" : "Log in"}</span>
             <p>Create a free account with your email.</p>
