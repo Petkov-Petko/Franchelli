@@ -18,7 +18,7 @@ function NavBar({setIsLogIn}) {
         <Link  to="/Franchelli/" onClick={() => setMenu("home")}>Home</Link>
         <a href="/Franchelli/#explore-menu">Menu</a>
         <a href="/Franchelli/about">About</a>
-        <a href="/Franchelli/#logoImgFooter">Contact us</a>
+        <a href="/Franchelli/contacts">Contact us</a>
       </ul>
       <div className="rightNav">
         <div className="themeChange">
