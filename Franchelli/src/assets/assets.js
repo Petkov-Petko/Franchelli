@@ -1,16 +1,18 @@
 import menu_1 from "./c_5c87a51786d21_c095f62d4119a.jpg";
-import salad1 from "./salad1.jpg";
-import salad3 from "./salad3.jpg";
-import salad5 from "./salad5.jpg";
-import pizza2 from "./pizza2.jpg";
-import burger1 from "./burger1.jpg";
-import burger2 from "./burger2.jpg";
-import burger3 from "./burger3.jpg";
-import pasta1 from "./pasta1.jpg";
-import pasta2 from "./pasta2.jpg";
-import pasta3 from "./pasta3.jpg";
-import grill1 from "./grill1.jpg";
-import grill2 from "./grill2.jpg";
+import salad1 from "./salad1.png";
+import salad3 from "./salad3.png";
+import salad5 from "./salad5.png";
+import pizza1 from "./pizza1.png";
+import pizza2 from "./pizza2.png";
+import pizza3 from "./pizza3.png";
+import burger1 from "./burger1.png";
+import burger2 from "./burger2.png";
+import burger3 from "./burger3.png";
+import pasta1 from "./pasta1.png";
+import pasta2 from "./pasta2.png";
+import pasta3 from "./pasta3.png";
+import grill1 from "./grill1.png";
+import grill2 from "./grill2.png";
 
 export const assets = {
   menu_1,
@@ -19,7 +21,7 @@ export const assets = {
 export const menu_list = [
   {
     menu_name: "Pizza",
-    menu_image: pizza2,
+    menu_image: pizza1,
   },
   {
     menu_name: "Burger",
@@ -106,7 +108,7 @@ export const food_list = [
   {
     id: "8",
     name: "Pizza Margherita",
-    image: pizza2,
+    image: pizza3,
     price: 15,
     description:
       "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
@@ -151,7 +153,7 @@ export const food_list = [
   {
     id: "13",
     name: "Pizza Onion",
-    image: pizza2,
+    image: pizza1,
     price: 25,
     description:
       "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
