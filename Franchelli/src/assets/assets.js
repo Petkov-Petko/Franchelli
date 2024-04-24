@@ -107,7 +107,7 @@ export const food_list = [
   },
   {
     id: "8",
-    name: "Pizza Margherita",
+    name: "Pizza Kalcone",
     image: pizza3,
     price: 15,
     description:
@@ -218,7 +218,7 @@ export const top_dishes = [
   {
     id: "2",
     name: "Pizza Margherita",
-    image: pizza2,
+    image: pizza3,
     price: 15,
     description:
       "Best food in Varna. Classic Italian Burrata cheese with tomatoes and basil.",
@@ -271,7 +271,7 @@ export const top_dishes = [
   },
   {
     id: "8",
-    name: "Pizza Margherita",
+    name: "Pizza Kalcone",
     image: pizza2,
     price: 15,
     description:

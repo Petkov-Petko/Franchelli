@@ -36,3 +36,10 @@
   border-radius: 0px 0px 15px 15px;
   cursor: pointer;
 }
+.food-item button:hover {
+  background-color: rgba(211, 31, 31, 0.574);
+}
+
+.food-item button:active {
+  background-color: rgb(211, 31, 31);
+}
