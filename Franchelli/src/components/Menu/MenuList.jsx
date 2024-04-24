@@ -3,6 +3,7 @@ import { menu_list } from "../../assets/assets";
 import "dragscroll";
 
 const MenuList = ({ category, setCategory }) => {
+  
   return (
     <div className="explore-menu" id="explore-menu">
       <h1>Menu</h1>
@@ -14,7 +15,6 @@ const MenuList = ({ category, setCategory }) => {
                 setCategory((prev) =>
                   prev === menu.menu_name ? "Top Dishes" : menu.menu_name
                 );
-                console.log(category);
               }}
               key={index}
               className="menu-list-item"

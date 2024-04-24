@@ -14,15 +14,16 @@ h1 {
 }
 
 .menu-list {
+  width: 1140px;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
   gap: 90px;
-  overflow-x: scroll;
-  overflow: hidden;
+  overflow-x: auto;
 }
+
 .menu-list-item {
   display: flex;
   flex-direction: column;
@@ -38,13 +39,28 @@ h1 {
   cursor: pointer;
 }
 
-.menu-list::-webkit-scrollbar {
+/* .menu-list::-webkit-scrollbar {
   display: none;
+} */
+.menu-list::-webkit-scrollbar {
+  width: 30px;
+  height: 15px;
+  scroll-behavior: smooth;
+
 }
 
-.menu-list {
-  animation: scroll 10s linear infinite;
+.menu-list::-webkit-scrollbar-track {
+  background: #f1f1f134;
 }
+
+.menu-list::-webkit-scrollbar-thumb {
+  background: #4b4b4b85;
+}
+
+.menu-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(29, 35, 35, 0.651);
+}
+
 .menu-list-item .active {
   border: 5px solid #de391cc1;
   padding: 2px;
