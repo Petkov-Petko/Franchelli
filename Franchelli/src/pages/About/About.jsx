@@ -17,7 +17,7 @@ const About = () => {
         service, attention to detail and taste of the dishes!
       </p>
       <p>
-        In Fratelli restaurants you can have breakfast, lunch or dinner,
+        In Franchelli restaurants you can have breakfast, lunch or dinner,
         organize a company party, children's birthday, anniversary or a romantic
         dinner. Make your reservation now.
       </p>
