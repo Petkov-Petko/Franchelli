@@ -46,7 +46,6 @@ h1 {
   width: 30px;
   height: 15px;
   scroll-behavior: smooth;
-
 }
 
 .menu-list::-webkit-scrollbar-track {
@@ -64,4 +63,38 @@ h1 {
 .menu-list-item .active {
   border: 5px solid #de391cc1;
   padding: 2px;
+}
+
+@media (max-width: 1135px) {
+  .menu-list {
+    width: 740px;
+
+    gap: 20px;
+  }
+  .menu-list-item img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 742px) {
+  .menu-list {
+    width: 440px;
+    gap: 20px;
+  }
+  .menu-list-item img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 441px) {
+  .menu-list {
+    width: 340px;
+    gap: 20px;
+  }
+  .menu-list-item img {
+    width: 100px;
+    height: 100px;
+  }
 }
