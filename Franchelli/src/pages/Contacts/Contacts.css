@@ -6,7 +6,9 @@
   justify-content: center;
   gap: 200px;
 }
-
+.contactsPage{
+    height: 100vh;
+}
 .contactsDetails {
   display: flex;
   flex-direction: column;
@@ -56,3 +58,4 @@
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
+

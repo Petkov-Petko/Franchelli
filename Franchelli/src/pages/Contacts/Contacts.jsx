@@ -3,6 +3,7 @@ import './Contacts.css'
 
 const Contacts = () => {
   return (
+    <div className='contactsPage'>
     <div className='contacts'>
         <div className='contactsDetails'>
         <h2>Contacts</h2>
@@ -22,6 +23,7 @@ const Contacts = () => {
             <textarea placeholder='Message'></textarea>
             <button>Send</button>
         </form>
+    </div>
     </div>
     </div>
   )
