@@ -8,20 +8,15 @@ const Footer = () => {
       <img id="logoImgFooter" src={logo} alt="Logo"></img>
       <div className="footer-menu">
         <div className="about">
-          <h3>About</h3>
-          <p>
+          <a href="/Franchelli/about">
             About
-          </p>
+          </a>
         </div>
         <div className="Profile">
-          <h3>Profile</h3>
-          <p>Register</p>
-          <p>Login</p>
-          <p>Payment methods:</p>
+          <h3>Payment methods:</h3>
           <p>Visa, Master Card, Cash</p>
         </div>
-        <div className="Contacts">
-          <h3>Contacts</h3>
+        <div className="Contacts"> 
           <p>Address: 1234 Main Street</p>
           <p>For orders:123-456-789</p>
           <p>manager@Franchelli.bg</p>
