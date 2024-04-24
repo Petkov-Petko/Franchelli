@@ -15,8 +15,8 @@ function NavBar({setIsLogIn}) {
       <img id="logoImg" src={logo}></img>
       <ul>
         <Link  to="/Franchelli/" onClick={() => setMenu("home")}>Home</Link>
-        <a href="#explore-menu">Menu</a>
-        <a href="#logoImgFooter">About</a>
+        <a href="/Franchelli/#explore-menu">Menu</a>
+        <a href="/Franchelli/#logoImgFooter">About</a>
         <a>Contact us</a>
       </ul>
       <div className="rightNav">
