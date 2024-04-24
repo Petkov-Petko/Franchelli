@@ -1,0 +1,30 @@
+.aboutPage{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(203, 203, 203);
+}
+
+
+.aboutPage h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 15px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.52);
+}
+.aboutPage p{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    max-width: 1000px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.52);
+}
+
+#training{
+    color: rgb(255, 0, 0);
+    font-size: 17px;
+}
