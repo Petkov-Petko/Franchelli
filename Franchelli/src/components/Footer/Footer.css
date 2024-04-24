@@ -92,20 +92,34 @@
   grid-row: 4;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.5);
+  grid-column: 1 / span 3;
 }
 .Profile {
   display: flex;
   flex-direction: column;
 }
 
-@media (max-width: 730px) { 
+@media (max-width: 760px) { 
   #logoImgFooter {
     position: absolute;
-    right: 40%;
-    bottom: 220px;
-    grid-column: 1 / span 3;
-    text-align: center;
-    width: 250px;
-    margin: 0 auto;
+    right: 30%;
+    bottom: 210px;
   }
+  .footer-menu {
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 560px) { 
+
+  .footer-menu {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 460px) { 
+  .social {
+    gap: 1rem;
+  }
+ 
 }
