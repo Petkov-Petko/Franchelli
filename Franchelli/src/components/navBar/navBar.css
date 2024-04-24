@@ -104,3 +104,82 @@
 .shoppingCard:hover{
   transform: scale(1.1);
 }
+
+@media (max-width: 920px) {
+  #logoImg {
+    width: 140px;
+    width: 100px;
+  }
+
+  .searchImg {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: 11px;
+  }
+
+  .shoppingCard {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: 11px;
+  }
+
+  .loginBtn {
+    font-size: 11px;
+  }
+
+  .navbar ul {
+    gap: 30px;
+    font-size: 15px;
+  }
+
+  .rightNav {
+    gap: 10px;
+  }
+  .navbar {
+    padding: 0px 0px;
+  }
+
+}
+
+@media (max-width: 640px) {
+  #logoImg {
+    width: 140px;
+    width: 100px;
+  }
+
+  .searchImg {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: 11px;
+  }
+
+  .shoppingCard {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: 11px;
+  }
+
+  .loginBtn {
+    font-size: 11px;
+  }
+
+  .navbar ul {
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  .rightNav {
+    gap: 10px;
+  }
+  .navbar {
+    padding: 0px 0px;
+  }
+
+  .themeChange {
+    display: none;
+  }
+}
