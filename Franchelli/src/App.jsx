@@ -6,6 +6,7 @@ import LogIn from "./components/LogIn/LogIn";
 import { Route, Routes } from "react-router-dom";
 import Card from "./pages/Card/Card";
 import Footer from "./components/Footer/Footer";
+import About from "./pages/About/About";
 
 function App() {
   const [isLogIn, setIsLogIn] = useState(false);
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/Franchelli/" element={<Home />} />
         <Route path="/Franchelli/card" element={<Card />} />
+        <Route path="/Franchelli/about" element={<About />} />
       </Routes>
       <Footer />
     </>

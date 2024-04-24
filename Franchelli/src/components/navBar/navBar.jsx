@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 function NavBar({setIsLogIn}) {
 
+  
   const [menu, setMenu] = useState(false);
 
   return (
@@ -16,8 +17,8 @@ function NavBar({setIsLogIn}) {
       <ul>
         <Link  to="/Franchelli/" onClick={() => setMenu("home")}>Home</Link>
         <a href="/Franchelli/#explore-menu">Menu</a>
-        <a href="/Franchelli/#logoImgFooter">About</a>
-        <a>Contact us</a>
+        <a href="/Franchelli/about">About</a>
+        <a href="/Franchelli/#logoImgFooter">Contact us</a>
       </ul>
       <div className="rightNav">
         <div className="themeChange">
