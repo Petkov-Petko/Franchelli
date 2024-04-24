@@ -4,12 +4,13 @@
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
-  gap: 200px;
+  gap: 20px;
 }
 .contactsPage{
     height: 100vh;
 }
 .contactsDetails {
+  width: 500px;
   display: flex;
   flex-direction: column;
   background-color: rgb(203, 203, 203);
@@ -20,6 +21,7 @@
 }
 
 .contactsFrom {
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,3 +61,42 @@
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .contacts {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .contactsPage{
+    height: 100%;
+  }
+
+}
+@media (max-width: 500px) {
+.contactsFrom {
+  width: 420px;
+}
+
+.contactsDetails {
+  width: 420px;
+}
+}
+
+@media (max-width: 1050px) {
+  .contactsFrom {
+    width: 300px;
+  }
+  
+  .contactsDetails {
+    width: 300px;
+  }
+
+  .contactsFrom form input {
+    width: 250px;
+  }
+
+  .contactsFrom form textarea {
+    width: 250px;
+  }
+
+}
