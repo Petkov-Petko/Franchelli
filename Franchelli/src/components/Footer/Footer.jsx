@@ -13,7 +13,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="Profile">
-          <h3>Payment methods:</h3>
+          <p>Payment methods:</p>
           <p>Visa, Master Card, Cash</p>
         </div>
         <div className="Contacts"> 
