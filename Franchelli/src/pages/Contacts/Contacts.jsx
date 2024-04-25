@@ -8,7 +8,7 @@ const Contacts = () => {
         <div className='contactsDetails'>
         <h2>Contacts</h2>
             <h4>If you have any questions or just want to share your opinion, feel free to contact us at any time!</h4>
-            <h4>Opening hours of Fratelli restaurants:</h4>
+            <h4>Opening hours of Franchelli restaurants:</h4>
             <p>From 8 am to 23 p.m., every day</p>
             <h4>Phones for reservations:</h4>
             <p>Franchelli Varna /Evlogi Georgiev 47 Str./ -0123-421-421</p>
