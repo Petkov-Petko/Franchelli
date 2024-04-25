@@ -105,6 +105,10 @@
   transform: scale(1.1);
 }
 
+.navbar .active {
+  color: #f44336;
+}
+
 @media (max-width: 920px) {
   #logoImg {
     width: 140px;
