@@ -1,6 +1,5 @@
 #logoImg {
   width: 200px;
-  width: 170px;
 }
 
 .searchImg {
@@ -109,81 +108,89 @@
   color: #f44336;
 }
 
-@media (max-width: 920px) {
-  #logoImg {
-    width: 140px;
-    width: 100px;
+@media (max-width: 1050px) {
+  .navbar ul {  
+    gap: 20px;  
   }
-
-  .searchImg {
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-    margin-top: 11px;
-  }
-
-  .shoppingCard {
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-    margin-top: 11px;
-  }
-
-  .loginBtn {
-    font-size: 11px;
-  }
-
-  .navbar ul {
-    gap: 30px;
-    font-size: 15px;
-  }
-
-  .rightNav {
-    gap: 10px;
-  }
-  .navbar {
-    padding: 0px 0px;
-  }
-
 }
 
-@media (max-width: 640px) {
-  #logoImg {
-    width: 140px;
-    width: 100px;
+@media (max-width: 925px) {
+  .navbar ul {  
+    gap: 10px;  
   }
 
-  .searchImg {
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-    margin-top: 11px;
-  }
-
-  .shoppingCard {
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-    margin-top: 11px;
-  }
-
-  .loginBtn {
-    font-size: 11px;
-  }
-
-  .navbar ul {
-    gap: 10px;
-    font-size: 15px;
+  .navbar {
+    padding: 0px 10px;
   }
 
   .rightNav {
     gap: 10px;
   }
-  .navbar {
-    padding: 0px 0px;
+  
+  .themeChange {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 785px) {
+  .rightNav {
+    gap: 5px;
+  }
+  .navbar ul {  
+    font-size: 15px;  
+  }
+  .themeChange a {
+    font-size: 15px;
+  }
+  .loginBtn {
+    font-size: 15px;
   }
 
-  .themeChange {
-    display: none;
+  .shoppingCard {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+  }
+  .searchImg {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+  }
+  #logoImg {
+    width: 120px;
+  }
+}
+
+@media (max-width: 580px) {
+  .rightNav {
+    gap: 2px;
+  }
+  .navbar ul {  
+    font-size: 11px;  
+  }
+  .themeChange a {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .loginBtn {
+    font-size: 11px;
+  }
+
+  .shoppingCard {
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+  }
+  .searchImg {
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+  }
+  #logoImg {
+    width: 60px;
+  }
+  .navbar ul {
+    padding: 0px 10px;
+    font-size: 10px;
   }
 }
