@@ -14,6 +14,7 @@ const PlaceOrder = () => {
         <label htmlFor="phone">Phone:</label>
         <input type="tel" id="phone" name="phone" required />
     </form>
+    <hr />
     <h4>Delivery address</h4>
     <form className="checkoutForm">
         <label htmlFor="address">Address:</label>
@@ -21,6 +22,7 @@ const PlaceOrder = () => {
         <label htmlFor="city">City:</label>
         <input type="text" id="city" name="city" required />       
     </form>
+    <hr />
     <h4>Others</h4>
     <form className="checkoutForm">
         <label htmlFor="payment">Payment:</label>

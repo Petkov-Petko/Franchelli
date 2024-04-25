@@ -83,7 +83,7 @@
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 630px) {
     .checkOut input{
         width: 220px;
     }
@@ -99,4 +99,40 @@
         position: relative;
         right: 90px;
       }
+      .checkOut hr{
+        width: 350px;
+        margin: 0 auto;
+        border: 1px solid #000;
+        margin-bottom: 40px;
+    }
+  }
+  @media (max-width: 400px) {
+    .checkOut input{
+        width: 170px;
+    }
+    #payment{
+        width: 170px;
+    }
+    .checkOut{
+        padding-top: 100px;
+        height: 180vh;
+        padding-bottom: 90px;
+    }
+
+    #invoice{
+        position: relative;
+        right: 70px;
+      }
+      .checkOut hr{
+        width: 300px;
+        margin: 0 auto;
+        border: 1px solid #000;
+        margin-bottom: 40px;
+    }
+   
+  }
+  @media (max-width: 550px) {
+    .checkOut{
+        padding-bottom: 30px;
+    }
   }
