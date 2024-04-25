@@ -42,10 +42,18 @@
 }
 
 .headerContent h2{
+    width: 100%;
+    text-align: center;
     color: rgb(252, 251, 249);
     font-size: 30px;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media (max-width: 615px) {
+    .headerContent h2{
+        font-size: 20px;
+    }
 }
