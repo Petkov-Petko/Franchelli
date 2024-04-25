@@ -9,14 +9,14 @@ import { Link } from "react-router-dom";
 function NavBar({setIsLogIn}) {
 
   
-  const [menu, setMenu] = useState("menu");
+  const [menu, setMenu] = useState("home");
 
   return (
     <div className="navbar">
       <img id="logoImg" src={logo}></img>
       <ul>
         <Link to="/Franchelli/" onClick={() => setMenu("home")} className={menu==="home"?"active": ""}>Home</Link>
-        <Link to="/Franchelli/#explore-menu" onClick={() => setMenu("menu")} className={menu==="menu"?"active": ""}>Menu</Link>
+        <a href="/Franchelli/#explore-menu" onClick={() => setMenu("menu")} className={menu==="menu"?"active": ""}>Menu</a>
         <Link to="/Franchelli/about" onClick={() => setMenu("about")} className={menu==="about"?"active": ""}>About</Link>
         <Link to="/Franchelli/contacts" onClick={() => setMenu("contacts")} className={menu==="contacts"?"active": ""}>Contact us</Link>
       </ul>
