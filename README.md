@@ -15,16 +15,19 @@ Franchelli is a front-end project aimed at providing users with a seamless brows
 - HTML
 - CSS
 
-## Getting Started
+## Usage
 
-To run the project locally, follow these steps:
+To run the project locally:
 
-1. Clone this repository to your local machine.
+1. Clone this repository.
 2. Navigate to the project directory.
-3. Install dependencies by running `npm install`.
-4. Start the development server by running `npm run dev`.
-5. Open your web browser and visit `http://localhost:3000` to view the app.
+3. Run `npm install` to install dependencies.
+4. Run `npm run dev` to start the development server.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-Or run the URL in the description.
+## Deployment
+
+The website is deployed on [GitHub Pages](https://pages.github.com/), and you can access it [here](https://petkov-petko.github.io/Franchelli/).
+
 
 
